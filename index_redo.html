@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!--   반응형 태그들 추후 입력-->
+    <meta charset="UTF-8">
+    <title>세븐브로이 맥주 Seven Brau</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script/jquery-1.12.3.js"></script>
+    <script src="script/ScrollTrigger.min.js"></script>
+    <script src="script/script.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <div class="hd_top">
+            <div class="hd_inner">
+                <h1><a href="index.html" title="메인페이지로"><img src="./img/logo_black.png" alt="세븐브로이 맥주"></a></h1>
+                <a href="#" title="메뉴" class="toggle_btn"><i class="fas fa-bars"></i></a>
+            </div>
+            <div class="hd_slide">
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="index.html" title="브랜드 스토리" class="hover">브랜드 스토리</a></li>
+                        <li><a href="index.html" title="제품 소개">제품 소개 </a>
+                            <ul class="sub">
+                                <li><a href="index.html" title="신제품">신제품</a></li>
+                                <li><a href="index.html" title="클래식 제품">클래식</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html" title="세븐브로이 찾기">세븐브로이 찾기</a></li>
+                        <li><a href="index.html" title="양조장 투어">양조장 투어</a></li>
+                        <li><a href="index.html" title="세븐브로이 소식">세븐브로이 소식</a></li>
+                    </ul>
+                </nav>
+                <nav class="lnb">
+                    <h3>세븐브로이 회원이신가요?</h3>
+                    <ul>
+                        <li><a href="./login.html" title="클래식 맥주 바로가기">로그인</a></li>
+                        <li><a href="./join.html" title="클래식 맥주 바로가기">회원가입</a></li>
+                        <li>
+                            <div class="sns">
+                                <a href="http://www.facebook.com" title="페이스북 바로가기"><i class="fab fa-facebook-f"></i></a>
+                                <a href="http://www.instagram.com" title="인스타그램 바로가기"><i class="fab fa-instagram"></i></a>
+                                <a href="http://www.youtube.com" title="유튜브 바로가기"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" title="닫기" class="close_btn"><i class="fas fa-times"></i></a>
+            </div>
+        </div>
+    </header>
+    <section id="visual">
+        <video src="./img/main_01_video.mp4" autoplay muted></video>
+        <div>Hop, Malt, Yeast,<br>Water, Herb, Spices <br> and Spirit</div>
+        <i class="fas fa-angle-down"></i>
+    </section>
+    <!--Our Story 영역-->
+    <section id="story">
+        <div class="h2">
+            <img src="./img/hop_icon.png" alt="보리" class="hop_l">
+            <h2>Our Story</h2><img src="./img/hop_icon_right.png" alt="보리" class="hop_r">
+        </div>
+        <article class="intro1">
+            <div class="img_box">
+                <img src="img/main_02.jpg" alt="세븐브로이 양조장" data-trigger>
+            </div>
+            <div class="txt_box">
+                <p class="eyebrow">77년 만에 탄생한 우리나라 세번째 맥주</p>
+                <h3 class="heading">세븐브로이 맥주</h3>
+                <span class="circle org" data-trigger></span>
+                <p class="content">
+                    작은 브루어리로 시작한 세븐브로이맥주는 프리미엄 맥주에 대한 열정과 비전을 품고 연구와 제조설비에 대한 투자를 시작, 한국의 세 번째 맥주 제조 기업이자, 1948년 건국이후 최초로 대한민국 정부가 맥주제조를 허가해 준 일반면허 1호 기업입니다.<br><br>국내 최초로 에일 맥주를 선보이며 수입맥주로 점철되어있던 국내 프리미엄맥주 시장에 뛰어든 세븐브로이맥주는 도전과 열정이 깃든 맥주입니다. 초심을 잃지 않고 지속적으로 담금질 하여 쉽게 꺼지지 않는 전통을 만들어 갈 것입니다.
+                </p>
+            </div>
+        </article>
+        <article class="intro2">
+            <div class="txt_box">
+                <p class="eyebrow">Seven Brau</p>
+                <h3 class="heading">강원도 횡성 <em>청정 암반수</em></h3> <span class="circle blue" data-trigger></span>
+                <p class="content">
+                    강원도 횡성의 청정 암반수와 독일산 최고급 홉과 맥아만을 사용하여 <br>맥주본연의 풍미가 살아있는 프리미엄 맥주를 선보이고 있습니다.
+                </p>
+                </div>
+                <div class="img_box">
+                    <img src="./img/main_03.jpg" alt="세븐브로이 양조장" data-trigger>
+                </div>
+            
+        </article>
+    </section>
+    <!--Our Beer-->
+    <section id="beer">
+        <div class="h2">
+            <img src="./img/hop_icon.png" alt="보리" class="hop_l">
+            <h2>Our Beers</h2> <img src="./img/hop_icon_right.png" alt="보리" class="hop_r">
+        </div>
+        <article class="beer_l" data-trigger>
+            <a href="classic.html" title="클래식 맥주 바로가기">
+                <span><br>CLA<br>SSIC</span>
+                <img src="./img/beer01.png" alt="IPA">
+                <div class="box">
+                    <p class="eyebrow">IPA</p>
+                    <p class="heading">INDIA PALE ALE</p>
+                    <p class="more_btn">MORE</p>
+                </div>
+            </a>
+        </article>
+        <article class="beer_r" data-trigger>
+            <a href="new.html" title="클래식 맥주 바로가기">
+                <span>NEW</span>
+                <img src="./img/beer02.png" alt="IPA">
+                <div class="box">
+                    <p class="eyebrow">Gangseo Mild Ale</p>
+                    <p class="heading">강서 마일드 에일</p>
+                    <p class="more_btn">MORE</p>
+                </div>
+            </a>
+        </article>
+
+
+    </section>
+    <!--   Tour -->
+    <section id="tour">
+        <h2 class="eyebrow">Brewery Tour Program</h2>
+        <div class="h2">
+            <img src="./img/hop_icon.png" alt="보리" class="hopl">
+            <p class="heading">양평 친환경 공장 투어</p> <img src="./img/hop_icon_right.png" alt="보리" class="hop_r">
+        </div>
+        <p class="content"><em>세븐브로이 멤버</em>에게만 주어지는<br>양평 친환경 공장 투어를 경험해보세요.</p>
+        <ul>
+            <li><img src="./img/fac01.jpg" alt="공장 이미지"></li>
+            <li><img src="./img/fac02.jpg" alt="공장 이미지"></li>
+            <li><img src="./img/fac03.jpg" alt="공장 이미지"></li>
+            <li><img src="./img/fac04.jpg" alt="공장 이미지"></li>
+            <li><img src="./img/fac05.jpg" alt="공장 이미지"></li>
+            <li><img src="./img/fac06.jpg" alt="공장 이미지"></li>
+        </ul>
+    </section>
+    <section id="last">
+        <img src="./img/main_04.jpg" alt="세븐브로이 매장">
+        <div class="txt_box" data-trigger>
+            <p class="heading">늘 한결같은 맛,<br>깊고 풍부한 맛</p>
+            <p class="content">강원도 횡성의 청정 암반수와 독일산 최고급 홉과<br>맥아만을 사용하여맥주본연의 풍미가 살아있는<br>프리미엄 맥주를 선보이고 있습니다.
+            </p>
+        </div>
+    </section>
+    <section id="insta">
+        <!--           embed ig photos-->
+        <h2>#세븐브로이</h2>
+        <div class="sns">
+            <a href="http://www.facebook.com" title="페이스북 바로가기"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://www.instagram.com" title="인스타그램 바로가기"><i class="fab fa-instagram"></i></a>
+            <a href="http://www.youtube.com" title="유튜브 바로가기"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="ig_img">
+            <ul>
+                <li><img src="./img/insta1.PNG" alt="인스타그램"></li>
+                <li><img src="./img/insta2.PNG" alt="인스타그램"></li>
+                <li><img src="./img/insta3.PNG" alt="인스타그램"></li>
+                <li><img src="./img/insta4.PNG" alt="인스타그램"></li>
+                <li><img src="./img/insta5.PNG" alt="인스타그램"></li>
+            </ul>
+        </div>
+
+    </section>
+    <footer>
+        <a href="#" title="메인페이지로"><img src="./img/logo.png" alt="메인페이지로"></a>
+        <address>세븐브로이맥주(주) | 대표자 김강삼 | (본사)강원도 횡성군 공근면 초원리 109-15 | 서울시 강서구 가양동 52-7 강서한강자이타워 B동 1506호<br>
+            Tel : 02-2659-1950 | Fax : 070-8942-2362 | Email : sevenbrau@naver.com<br>
+            Copyright© 2013 Sevenbrau INC. All Rights Reserved.</address>
+    </footer>
+</body></html>
